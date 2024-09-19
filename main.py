@@ -17,4 +17,5 @@ class Coating():
 
 if __name__ == '__main__':
     a1 = Coating()
-    a2 = Coating()
+    a1.get_info()
+    a1.output_price()
