@@ -13,6 +13,9 @@ class Coating():
     def output_price(self):
         print(f"Цена покраски детали \"{self.part}\" в {self.color} составляет {self.price} рублей")
     def part_coefficient(self):
+        '''
+        TODO: Записать финальную цену в self.price
+        '''
         pass
 
 if __name__ == '__main__':
